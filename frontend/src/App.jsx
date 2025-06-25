@@ -11,7 +11,6 @@ export default function App() {
   const containerRef = useRef(null);
   const headerRef = useRef(null);
 
-  // Initial page load animation
   useEffect(() => {
     const tl = gsap.timeline();
     tl.fromTo(
